@@ -1,0 +1,17 @@
+/home/ubuntu/1019/install/communicate/lib/communicate/sender
+/home/ubuntu/1019/install/communicate/lib/communicate/receiver
+/home/ubuntu/1019/install/communicate/share/ament_index/resource_index/package_run_dependencies/communicate
+/home/ubuntu/1019/install/communicate/share/ament_index/resource_index/parent_prefix_path/communicate
+/home/ubuntu/1019/install/communicate/share/communicate/environment/ament_prefix_path.sh
+/home/ubuntu/1019/install/communicate/share/communicate/environment/ament_prefix_path.dsv
+/home/ubuntu/1019/install/communicate/share/communicate/environment/path.sh
+/home/ubuntu/1019/install/communicate/share/communicate/environment/path.dsv
+/home/ubuntu/1019/install/communicate/share/communicate/local_setup.bash
+/home/ubuntu/1019/install/communicate/share/communicate/local_setup.sh
+/home/ubuntu/1019/install/communicate/share/communicate/local_setup.zsh
+/home/ubuntu/1019/install/communicate/share/communicate/local_setup.dsv
+/home/ubuntu/1019/install/communicate/share/communicate/package.dsv
+/home/ubuntu/1019/install/communicate/share/ament_index/resource_index/packages/communicate
+/home/ubuntu/1019/install/communicate/share/communicate/cmake/communicateConfig.cmake
+/home/ubuntu/1019/install/communicate/share/communicate/cmake/communicateConfig-version.cmake
+/home/ubuntu/1019/install/communicate/share/communicate/package.xml

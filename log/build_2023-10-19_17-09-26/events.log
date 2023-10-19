@@ -1,0 +1,181 @@
+[0.000000] (-) TimerEvent: {}
+[0.000863] (pub) JobQueued: {'identifier': 'pub', 'dependencies': OrderedDict()}
+[0.000914] (pub) JobStarted: {'identifier': 'pub'}
+[0.047456] (pub) JobProgress: {'identifier': 'pub', 'progress': 'cmake'}
+[0.049538] (pub) JobProgress: {'identifier': 'pub', 'progress': 'build'}
+[0.049574] (pub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/1019/build/pub', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/1019/build/pub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/1019/src/pub'), ('RTI_LICENSE_FILE', '/opt/rti.com/rti_connext_dds-6.0.1/rti_license.dat'), ('ROS_PYTHON_VERSION', '3'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-6.0.1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/1019/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('NAME', 'DESKTOP-UT8F8H6'), ('WSL_INTEROP', '/run/WSL/357_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Program Files/Java/jdk-11.0.17/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Bandizip/:/mnt/d/Qt/Qt5.14.2/Tools/QtCreator/bin:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/python3.11:/mnt/d/python3.11/Scripts:/mnt/c/MinGw/bin:/mnt/c/Git/cmd:/mnt/d/python3.11:/mnt/d/python3.11/Scripts/:/mnt/c/Users/IoT16/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/c/Program Files/Google/Chrome/Application:/mnt/c/Users/IoT16/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/IoT16/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/snap/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/ubuntu/1019/src/pub/defaultPublisher.xml'), ('WT_SESSION', '31e8296c-f8b6-4522-84fb-3642d39dd0ad'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/1019/install/pub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('RMW_FASTRTPS_USE_QOS_FROM_XML', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/1019/build/pub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/1019/install/pub:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.066279] (pub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100062] (-) TimerEvent: {}
+[0.167614] (pub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.200234] (-) TimerEvent: {}
+[0.300605] (-) TimerEvent: {}
+[0.372442] (pub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.374321] (pub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.379152] (pub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.387797] (pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.400051] (pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400846] (-) TimerEvent: {}
+[0.447221] (pub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.448212] (pub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500990] (-) TimerEvent: {}
+[0.601338] (-) TimerEvent: {}
+[0.701651] (-) TimerEvent: {}
+[0.801996] (-) TimerEvent: {}
+[0.902420] (-) TimerEvent: {}
+[1.002689] (-) TimerEvent: {}
+[1.103049] (-) TimerEvent: {}
+[1.203381] (-) TimerEvent: {}
+[1.303751] (-) TimerEvent: {}
+[1.404117] (-) TimerEvent: {}
+[1.504470] (-) TimerEvent: {}
+[1.604813] (-) TimerEvent: {}
+[1.705121] (-) TimerEvent: {}
+[1.805476] (-) TimerEvent: {}
+[1.905814] (-) TimerEvent: {}
+[2.006073] (-) TimerEvent: {}
+[2.106503] (-) TimerEvent: {}
+[2.206961] (-) TimerEvent: {}
+[2.307244] (-) TimerEvent: {}
+[2.407522] (-) TimerEvent: {}
+[2.507925] (-) TimerEvent: {}
+[2.608322] (-) TimerEvent: {}
+[2.708712] (-) TimerEvent: {}
+[2.808982] (-) TimerEvent: {}
+[2.909267] (-) TimerEvent: {}
+[3.009707] (-) TimerEvent: {}
+[3.110046] (-) TimerEvent: {}
+[3.210395] (-) TimerEvent: {}
+[3.310807] (-) TimerEvent: {}
+[3.411182] (-) TimerEvent: {}
+[3.511616] (-) TimerEvent: {}
+[3.611913] (-) TimerEvent: {}
+[3.712226] (-) TimerEvent: {}
+[3.812639] (-) TimerEvent: {}
+[3.912939] (-) TimerEvent: {}
+[4.013217] (-) TimerEvent: {}
+[4.113546] (-) TimerEvent: {}
+[4.213907] (-) TimerEvent: {}
+[4.314255] (-) TimerEvent: {}
+[4.414568] (-) TimerEvent: {}
+[4.514898] (-) TimerEvent: {}
+[4.615168] (-) TimerEvent: {}
+[4.715542] (-) TimerEvent: {}
+[4.815892] (-) TimerEvent: {}
+[4.916345] (-) TimerEvent: {}
+[5.016698] (-) TimerEvent: {}
+[5.117049] (-) TimerEvent: {}
+[5.217398] (-) TimerEvent: {}
+[5.317723] (-) TimerEvent: {}
+[5.418139] (-) TimerEvent: {}
+[5.518565] (-) TimerEvent: {}
+[5.618899] (-) TimerEvent: {}
+[5.719253] (-) TimerEvent: {}
+[5.819653] (-) TimerEvent: {}
+[5.919965] (-) TimerEvent: {}
+[6.020339] (-) TimerEvent: {}
+[6.120666] (-) TimerEvent: {}
+[6.220966] (-) TimerEvent: {}
+[6.321279] (-) TimerEvent: {}
+[6.421570] (-) TimerEvent: {}
+[6.521861] (-) TimerEvent: {}
+[6.622245] (-) TimerEvent: {}
+[6.722619] (-) TimerEvent: {}
+[6.822999] (-) TimerEvent: {}
+[6.923297] (-) TimerEvent: {}
+[7.023738] (-) TimerEvent: {}
+[7.124145] (-) TimerEvent: {}
+[7.224559] (-) TimerEvent: {}
+[7.324925] (-) TimerEvent: {}
+[7.425268] (-) TimerEvent: {}
+[7.525577] (-) TimerEvent: {}
+[7.625894] (-) TimerEvent: {}
+[7.726203] (-) TimerEvent: {}
+[7.826580] (-) TimerEvent: {}
+[7.926993] (-) TimerEvent: {}
+[8.027383] (-) TimerEvent: {}
+[8.127757] (-) TimerEvent: {}
+[8.228053] (-) TimerEvent: {}
+[8.328466] (-) TimerEvent: {}
+[8.428894] (-) TimerEvent: {}
+[8.529243] (-) TimerEvent: {}
+[8.629596] (-) TimerEvent: {}
+[8.729982] (-) TimerEvent: {}
+[8.814944] (pub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.830138] (-) TimerEvent: {}
+[8.930453] (-) TimerEvent: {}
+[8.946803] (pub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.997147] (pub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.997274] (pub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[8.997326] (pub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.997607] (pub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.998097] (pub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.998172] (pub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.998375] (pub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.999034] (pub) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.006696] (pub) StdoutLine: {'line': b'-- Generating done\n'}
+[9.008551] (pub) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/1019/build/pub\n'}
+[9.024097] (pub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[9.030570] (-) TimerEvent: {}
+[9.034582] (pub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o\x1b[0m\n'}
+[9.130756] (-) TimerEvent: {}
+[9.231111] (-) TimerEvent: {}
+[9.331466] (-) TimerEvent: {}
+[9.431820] (-) TimerEvent: {}
+[9.532184] (-) TimerEvent: {}
+[9.632573] (-) TimerEvent: {}
+[9.732989] (-) TimerEvent: {}
+[9.833345] (-) TimerEvent: {}
+[9.933681] (-) TimerEvent: {}
+[10.034051] (-) TimerEvent: {}
+[10.134358] (-) TimerEvent: {}
+[10.234708] (-) TimerEvent: {}
+[10.335060] (-) TimerEvent: {}
+[10.435392] (-) TimerEvent: {}
+[10.535679] (-) TimerEvent: {}
+[10.635977] (-) TimerEvent: {}
+[10.736311] (-) TimerEvent: {}
+[10.836643] (-) TimerEvent: {}
+[10.937362] (-) TimerEvent: {}
+[11.037909] (-) TimerEvent: {}
+[11.138217] (-) TimerEvent: {}
+[11.238569] (-) TimerEvent: {}
+[11.338895] (-) TimerEvent: {}
+[11.439233] (-) TimerEvent: {}
+[11.539566] (-) TimerEvent: {}
+[11.639908] (-) TimerEvent: {}
+[11.740229] (-) TimerEvent: {}
+[11.840541] (-) TimerEvent: {}
+[11.940888] (-) TimerEvent: {}
+[12.041274] (-) TimerEvent: {}
+[12.141634] (-) TimerEvent: {}
+[12.241973] (-) TimerEvent: {}
+[12.326759] (pub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[12.342133] (-) TimerEvent: {}
+[12.442472] (-) TimerEvent: {}
+[12.542777] (-) TimerEvent: {}
+[12.591726] (pub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[12.599482] (pub) CommandEnded: {'returncode': 0}
+[12.615475] (pub) JobProgress: {'identifier': 'pub', 'progress': 'install'}
+[12.620949] (pub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/1019/build/pub'], 'cwd': '/home/ubuntu/1019/build/pub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/1019/src/pub'), ('RTI_LICENSE_FILE', '/opt/rti.com/rti_connext_dds-6.0.1/rti_license.dat'), ('ROS_PYTHON_VERSION', '3'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-6.0.1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/1019/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('NAME', 'DESKTOP-UT8F8H6'), ('WSL_INTEROP', '/run/WSL/357_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Program Files/Java/jdk-11.0.17/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Bandizip/:/mnt/d/Qt/Qt5.14.2/Tools/QtCreator/bin:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/python3.11:/mnt/d/python3.11/Scripts:/mnt/c/MinGw/bin:/mnt/c/Git/cmd:/mnt/d/python3.11:/mnt/d/python3.11/Scripts/:/mnt/c/Users/IoT16/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/c/Program Files/Google/Chrome/Application:/mnt/c/Users/IoT16/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/IoT16/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/snap/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/ubuntu/1019/src/pub/defaultPublisher.xml'), ('WT_SESSION', '31e8296c-f8b6-4522-84fb-3642d39dd0ad'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/1019/install/pub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('RMW_FASTRTPS_USE_QOS_FROM_XML', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/1019/build/pub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/1019/install/pub:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[12.625218] (pub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.625327] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/lib/pub/talker\n'}
+[12.626017] (pub) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/1019/install/pub/lib/pub/talker" to ""\n'}
+[12.626109] (pub) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/1019/install/pub/share/ament_index/resource_index/package_run_dependencies/pub\n'}
+[12.626161] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/ament_index/resource_index/parent_prefix_path/pub\n'}
+[12.626356] (pub) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/1019/install/pub/share/pub/environment/ament_prefix_path.sh\n'}
+[12.626433] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/pub/environment/ament_prefix_path.dsv\n'}
+[12.626484] (pub) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/1019/install/pub/share/pub/environment/path.sh\n'}
+[12.626605] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/pub/environment/path.dsv\n'}
+[12.626821] (pub) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/1019/install/pub/share/pub/local_setup.bash\n'}
+[12.626897] (pub) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/1019/install/pub/share/pub/local_setup.sh\n'}
+[12.627028] (pub) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/1019/install/pub/share/pub/local_setup.zsh\n'}
+[12.627201] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/pub/local_setup.dsv\n'}
+[12.627275] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/pub/package.dsv\n'}
+[12.627577] (pub) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/1019/install/pub/share/ament_index/resource_index/packages/pub\n'}
+[12.627679] (pub) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/1019/install/pub/share/pub/cmake/pubConfig.cmake\n'}
+[12.627783] (pub) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/1019/install/pub/share/pub/cmake/pubConfig-version.cmake\n'}
+[12.627882] (pub) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/1019/install/pub/share/pub/package.xml\n'}
+[12.628935] (pub) CommandEnded: {'returncode': 0}
+[12.643276] (-) TimerEvent: {}
+[12.726423] (pub) JobEnded: {'identifier': 'pub', 'rc': 0}
+[12.726834] (-) EventReactorShutdown: {}

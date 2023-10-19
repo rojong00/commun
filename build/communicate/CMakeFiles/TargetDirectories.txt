@@ -1,0 +1,11 @@
+/home/ubuntu/1019/build/communicate/CMakeFiles/uninstall.dir
+/home/ubuntu/1019/build/communicate/CMakeFiles/communicate_uninstall.dir
+/home/ubuntu/1019/build/communicate/CMakeFiles/sender.dir
+/home/ubuntu/1019/build/communicate/CMakeFiles/receiver.dir
+/home/ubuntu/1019/build/communicate/CMakeFiles/test.dir
+/home/ubuntu/1019/build/communicate/CMakeFiles/edit_cache.dir
+/home/ubuntu/1019/build/communicate/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/1019/build/communicate/CMakeFiles/list_install_components.dir
+/home/ubuntu/1019/build/communicate/CMakeFiles/install.dir
+/home/ubuntu/1019/build/communicate/CMakeFiles/install/local.dir
+/home/ubuntu/1019/build/communicate/CMakeFiles/install/strip.dir

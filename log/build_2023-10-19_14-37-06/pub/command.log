@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/1019/build/pub': /usr/bin/cmake /home/ubuntu/1019/src/pub -DCMAKE_INSTALL_PREFIX=/home/ubuntu/1019/install/pub
+Invoked command in '/home/ubuntu/1019/build/pub' returned '1': /usr/bin/cmake /home/ubuntu/1019/src/pub -DCMAKE_INSTALL_PREFIX=/home/ubuntu/1019/install/pub

@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/1019/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/1019/src/pub -DCMAKE_INSTALL_PREFIX=/home/ubuntu/1019/install/pub
+Invoked command in '/home/ubuntu/1019/build/pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/1019/src/pub -DCMAKE_INSTALL_PREFIX=/home/ubuntu/1019/install/pub
+Invoking command in '/home/ubuntu/1019/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/1019/build/pub -- -j8 -l8
+Invoked command in '/home/ubuntu/1019/build/pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/1019/build/pub -- -j8 -l8
+Invoking command in '/home/ubuntu/1019/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/1019/build/pub
+Invoked command in '/home/ubuntu/1019/build/pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/1019/build/pub

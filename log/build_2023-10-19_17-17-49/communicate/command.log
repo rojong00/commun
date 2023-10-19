@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/1019/build/communicate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/1019/src/communicate -DCMAKE_INSTALL_PREFIX=/home/ubuntu/1019/install/communicate
+Invoked command in '/home/ubuntu/1019/build/communicate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/1019/src/communicate -DCMAKE_INSTALL_PREFIX=/home/ubuntu/1019/install/communicate
+Invoking command in '/home/ubuntu/1019/build/communicate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/1019/build/communicate -- -j8 -l8
+Invoked command in '/home/ubuntu/1019/build/communicate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/1019/build/communicate -- -j8 -l8
+Invoking command in '/home/ubuntu/1019/build/communicate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/1019/build/communicate
+Invoked command in '/home/ubuntu/1019/build/communicate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/1019/build/communicate

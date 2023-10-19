@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<profiles xmlns="http://www.eprosima.com/XMLSchemas/fastRTPS_Profiles">
+    <!-- default publisher profile -->
+    <publisher profile_name="default_publisher" is_default_profile="true">
+        <historyMemoryPolicy>PREALLOCATED_WITH_REALLOC</historyMemoryPolicy>
+    </publisher>
+    
+    <!-- default subscriber profile -->
+    <subscriber profile_name="default_subscriber" is_default_profile="true">
+        <historyMemoryPolicy>PREALLOCATED_WITH_REALLOC</historyMemoryPolicy>
+    </subscriber>
+
+    <!-- publisher profile for topic async_topic -->
+    <publisher profile_name="/topic_test">
+        <historyMemoryPolicy>DYNAMIC</historyMemoryPolicy>
+        <qos>
+            <publishMode>
+                <kind>SYNCHRONOUS</kind>
+            </publishMode>
+        </qos>
+    </publisher>
+ </profiles>

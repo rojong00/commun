@@ -1,0 +1,26 @@
+[0.038s] Invoking command in '/home/ubuntu/1019/build/pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/1019/build/pub -- -j8 -l8
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[3.447s] [100%] [32m[1mLinking CXX executable talker[0m
+[3.717s] [100%] Built target talker
+[3.725s] Invoked command in '/home/ubuntu/1019/build/pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/1019/build/pub -- -j8 -l8
+[3.746s] Invoking command in '/home/ubuntu/1019/build/pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/1019/build/pub
+[3.750s] -- Install configuration: ""
+[3.750s] -- Installing: /home/ubuntu/1019/install/pub/lib/pub/talker
+[3.752s] -- Set runtime path of "/home/ubuntu/1019/install/pub/lib/pub/talker" to ""
+[3.752s] -- Up-to-date: /home/ubuntu/1019/install/pub/share/ament_index/resource_index/package_run_dependencies/pub
+[3.752s] -- Up-to-date: /home/ubuntu/1019/install/pub/share/ament_index/resource_index/parent_prefix_path/pub
+[3.752s] -- Up-to-date: /home/ubuntu/1019/install/pub/share/pub/environment/ament_prefix_path.sh
+[3.752s] -- Up-to-date: /home/ubuntu/1019/install/pub/share/pub/environment/ament_prefix_path.dsv
+[3.752s] -- Up-to-date: /home/ubuntu/1019/install/pub/share/pub/environment/path.sh
+[3.752s] -- Up-to-date: /home/ubuntu/1019/install/pub/share/pub/environment/path.dsv
+[3.752s] -- Up-to-date: /home/ubuntu/1019/install/pub/share/pub/local_setup.bash
+[3.752s] -- Up-to-date: /home/ubuntu/1019/install/pub/share/pub/local_setup.sh
+[3.752s] -- Up-to-date: /home/ubuntu/1019/install/pub/share/pub/local_setup.zsh
+[3.753s] -- Up-to-date: /home/ubuntu/1019/install/pub/share/pub/local_setup.dsv
+[3.753s] -- Installing: /home/ubuntu/1019/install/pub/share/pub/package.dsv
+[3.753s] -- Up-to-date: /home/ubuntu/1019/install/pub/share/ament_index/resource_index/packages/pub
+[3.754s] -- Up-to-date: /home/ubuntu/1019/install/pub/share/pub/cmake/pubConfig.cmake
+[3.754s] -- Up-to-date: /home/ubuntu/1019/install/pub/share/pub/cmake/pubConfig-version.cmake
+[3.754s] -- Up-to-date: /home/ubuntu/1019/install/pub/share/pub/package.xml
+[3.755s] Invoked command in '/home/ubuntu/1019/build/pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/1019/build/pub

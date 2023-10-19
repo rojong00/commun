@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/1019/build/pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/1019/src/communicate -DCMAKE_INSTALL_PREFIX=/home/ubuntu/1019/install/pub
+Invoked command in '/home/ubuntu/1019/build/pub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/1019/src/communicate -DCMAKE_INSTALL_PREFIX=/home/ubuntu/1019/install/pub

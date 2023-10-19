@@ -1,0 +1,11 @@
+/home/ubuntu/1019/build/pub/CMakeFiles/uninstall.dir
+/home/ubuntu/1019/build/pub/CMakeFiles/pub_uninstall.dir
+/home/ubuntu/1019/build/pub/CMakeFiles/sender.dir
+/home/ubuntu/1019/build/pub/CMakeFiles/receiver.dir
+/home/ubuntu/1019/build/pub/CMakeFiles/test.dir
+/home/ubuntu/1019/build/pub/CMakeFiles/edit_cache.dir
+/home/ubuntu/1019/build/pub/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/1019/build/pub/CMakeFiles/list_install_components.dir
+/home/ubuntu/1019/build/pub/CMakeFiles/install.dir
+/home/ubuntu/1019/build/pub/CMakeFiles/install/local.dir
+/home/ubuntu/1019/build/pub/CMakeFiles/install/strip.dir

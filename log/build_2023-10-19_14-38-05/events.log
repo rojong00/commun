@@ -1,0 +1,184 @@
+[0.000000] (-) TimerEvent: {}
+[0.001046] (pub) JobQueued: {'identifier': 'pub', 'dependencies': OrderedDict()}
+[0.001092] (pub) JobStarted: {'identifier': 'pub'}
+[0.036621] (pub) JobProgress: {'identifier': 'pub', 'progress': 'cmake'}
+[0.037385] (pub) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/1019/src/pub', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/1019/install/pub'], 'cwd': '/home/ubuntu/1019/build/pub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/1019/src'), ('RTI_LICENSE_FILE', '/opt/rti.com/rti_connext_dds-6.0.1/rti_license.dat'), ('ROS_PYTHON_VERSION', '3'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-6.0.1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('NAME', 'DESKTOP-UT8F8H6'), ('WSL_INTEROP', '/run/WSL/357_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Program Files/Java/jdk-11.0.17/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Bandizip/:/mnt/d/Qt/Qt5.14.2/Tools/QtCreator/bin:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/python3.11:/mnt/d/python3.11/Scripts:/mnt/c/MinGw/bin:/mnt/c/Git/cmd:/mnt/d/python3.11:/mnt/d/python3.11/Scripts/:/mnt/c/Users/IoT16/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/c/Program Files/Google/Chrome/Application:/mnt/c/Users/IoT16/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/IoT16/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/snap/bin'), ('WT_SESSION', '31e8296c-f8b6-4522-84fb-3642d39dd0ad'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/1019/build/pub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.046949] (pub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100008] (-) TimerEvent: {}
+[0.150693] (pub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.200242] (-) TimerEvent: {}
+[0.300575] (-) TimerEvent: {}
+[0.365966] (pub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.368163] (pub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.373625] (pub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.382827] (pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.395806] (pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400770] (-) TimerEvent: {}
+[0.442798] (pub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.443786] (pub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500919] (-) TimerEvent: {}
+[0.601321] (-) TimerEvent: {}
+[0.701751] (-) TimerEvent: {}
+[0.802191] (-) TimerEvent: {}
+[0.902504] (-) TimerEvent: {}
+[1.002786] (-) TimerEvent: {}
+[1.103130] (-) TimerEvent: {}
+[1.203393] (-) TimerEvent: {}
+[1.303668] (-) TimerEvent: {}
+[1.404088] (-) TimerEvent: {}
+[1.504372] (-) TimerEvent: {}
+[1.604769] (-) TimerEvent: {}
+[1.705206] (-) TimerEvent: {}
+[1.805643] (-) TimerEvent: {}
+[1.905984] (-) TimerEvent: {}
+[2.006385] (-) TimerEvent: {}
+[2.106836] (-) TimerEvent: {}
+[2.207140] (-) TimerEvent: {}
+[2.307516] (-) TimerEvent: {}
+[2.407886] (-) TimerEvent: {}
+[2.508296] (-) TimerEvent: {}
+[2.608723] (-) TimerEvent: {}
+[2.709076] (-) TimerEvent: {}
+[2.809472] (-) TimerEvent: {}
+[2.909857] (-) TimerEvent: {}
+[3.010249] (-) TimerEvent: {}
+[3.110553] (-) TimerEvent: {}
+[3.210929] (-) TimerEvent: {}
+[3.311298] (-) TimerEvent: {}
+[3.411605] (-) TimerEvent: {}
+[3.511930] (-) TimerEvent: {}
+[3.612293] (-) TimerEvent: {}
+[3.712764] (-) TimerEvent: {}
+[3.813152] (-) TimerEvent: {}
+[3.913459] (-) TimerEvent: {}
+[4.013771] (-) TimerEvent: {}
+[4.114111] (-) TimerEvent: {}
+[4.214639] (-) TimerEvent: {}
+[4.315018] (-) TimerEvent: {}
+[4.415345] (-) TimerEvent: {}
+[4.515746] (-) TimerEvent: {}
+[4.616251] (-) TimerEvent: {}
+[4.716657] (-) TimerEvent: {}
+[4.816941] (-) TimerEvent: {}
+[4.917357] (-) TimerEvent: {}
+[5.017865] (-) TimerEvent: {}
+[5.118207] (-) TimerEvent: {}
+[5.218577] (-) TimerEvent: {}
+[5.318935] (-) TimerEvent: {}
+[5.419347] (-) TimerEvent: {}
+[5.519749] (-) TimerEvent: {}
+[5.620090] (-) TimerEvent: {}
+[5.720437] (-) TimerEvent: {}
+[5.820743] (-) TimerEvent: {}
+[5.921113] (-) TimerEvent: {}
+[6.021507] (-) TimerEvent: {}
+[6.121852] (-) TimerEvent: {}
+[6.222271] (-) TimerEvent: {}
+[6.322652] (-) TimerEvent: {}
+[6.422995] (-) TimerEvent: {}
+[6.523392] (-) TimerEvent: {}
+[6.623664] (-) TimerEvent: {}
+[6.724166] (-) TimerEvent: {}
+[6.824465] (-) TimerEvent: {}
+[6.924866] (-) TimerEvent: {}
+[7.025160] (-) TimerEvent: {}
+[7.125465] (-) TimerEvent: {}
+[7.225771] (-) TimerEvent: {}
+[7.326242] (-) TimerEvent: {}
+[7.426605] (-) TimerEvent: {}
+[7.527035] (-) TimerEvent: {}
+[7.627579] (-) TimerEvent: {}
+[7.728055] (-) TimerEvent: {}
+[7.828358] (-) TimerEvent: {}
+[7.928708] (-) TimerEvent: {}
+[8.029031] (-) TimerEvent: {}
+[8.129409] (-) TimerEvent: {}
+[8.229724] (-) TimerEvent: {}
+[8.330024] (-) TimerEvent: {}
+[8.430291] (-) TimerEvent: {}
+[8.530624] (-) TimerEvent: {}
+[8.630984] (-) TimerEvent: {}
+[8.731269] (-) TimerEvent: {}
+[8.831539] (-) TimerEvent: {}
+[8.846156] (pub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.931682] (-) TimerEvent: {}
+[8.976316] (pub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.031911] (-) TimerEvent: {}
+[9.034654] (pub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.034757] (pub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[9.034812] (pub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.035524] (pub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.036408] (pub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.036500] (pub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.037048] (pub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.038370] (pub) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.048955] (pub) StdoutLine: {'line': b'-- Generating done\n'}
+[9.051171] (pub) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/1019/build/pub\n'}
+[9.058672] (pub) CommandEnded: {'returncode': 0}
+[9.059129] (pub) JobProgress: {'identifier': 'pub', 'progress': 'build'}
+[9.059190] (pub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/1019/build/pub', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/1019/build/pub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/1019/src'), ('RTI_LICENSE_FILE', '/opt/rti.com/rti_connext_dds-6.0.1/rti_license.dat'), ('ROS_PYTHON_VERSION', '3'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-6.0.1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('NAME', 'DESKTOP-UT8F8H6'), ('WSL_INTEROP', '/run/WSL/357_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Program Files/Java/jdk-11.0.17/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Bandizip/:/mnt/d/Qt/Qt5.14.2/Tools/QtCreator/bin:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/python3.11:/mnt/d/python3.11/Scripts:/mnt/c/MinGw/bin:/mnt/c/Git/cmd:/mnt/d/python3.11:/mnt/d/python3.11/Scripts/:/mnt/c/Users/IoT16/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/c/Program Files/Google/Chrome/Application:/mnt/c/Users/IoT16/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/IoT16/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/snap/bin'), ('WT_SESSION', '31e8296c-f8b6-4522-84fb-3642d39dd0ad'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/1019/build/pub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.086611] (pub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o\x1b[0m\n'}
+[9.132070] (-) TimerEvent: {}
+[9.232359] (-) TimerEvent: {}
+[9.332644] (-) TimerEvent: {}
+[9.432975] (-) TimerEvent: {}
+[9.533325] (-) TimerEvent: {}
+[9.633669] (-) TimerEvent: {}
+[9.734036] (-) TimerEvent: {}
+[9.834382] (-) TimerEvent: {}
+[9.934733] (-) TimerEvent: {}
+[10.035094] (-) TimerEvent: {}
+[10.135400] (-) TimerEvent: {}
+[10.235735] (-) TimerEvent: {}
+[10.336254] (-) TimerEvent: {}
+[10.436604] (-) TimerEvent: {}
+[10.536997] (-) TimerEvent: {}
+[10.637355] (-) TimerEvent: {}
+[10.737713] (-) TimerEvent: {}
+[10.838065] (-) TimerEvent: {}
+[10.938379] (-) TimerEvent: {}
+[11.038714] (-) TimerEvent: {}
+[11.139048] (-) TimerEvent: {}
+[11.239393] (-) TimerEvent: {}
+[11.339856] (-) TimerEvent: {}
+[11.440191] (-) TimerEvent: {}
+[11.540527] (-) TimerEvent: {}
+[11.640796] (-) TimerEvent: {}
+[11.741151] (-) TimerEvent: {}
+[11.841492] (-) TimerEvent: {}
+[11.941842] (-) TimerEvent: {}
+[12.042189] (-) TimerEvent: {}
+[12.142533] (-) TimerEvent: {}
+[12.242901] (-) TimerEvent: {}
+[12.343243] (-) TimerEvent: {}
+[12.443586] (-) TimerEvent: {}
+[12.502383] (pub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[12.543770] (-) TimerEvent: {}
+[12.644192] (-) TimerEvent: {}
+[12.744611] (-) TimerEvent: {}
+[12.778895] (pub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[12.785921] (pub) CommandEnded: {'returncode': 0}
+[12.800897] (pub) JobProgress: {'identifier': 'pub', 'progress': 'install'}
+[12.807162] (pub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/1019/build/pub'], 'cwd': '/home/ubuntu/1019/build/pub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/1019/src'), ('RTI_LICENSE_FILE', '/opt/rti.com/rti_connext_dds-6.0.1/rti_license.dat'), ('ROS_PYTHON_VERSION', '3'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-6.0.1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('NAME', 'DESKTOP-UT8F8H6'), ('WSL_INTEROP', '/run/WSL/357_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Program Files/Java/jdk-11.0.17/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Bandizip/:/mnt/d/Qt/Qt5.14.2/Tools/QtCreator/bin:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/python3.11:/mnt/d/python3.11/Scripts:/mnt/c/MinGw/bin:/mnt/c/Git/cmd:/mnt/d/python3.11:/mnt/d/python3.11/Scripts/:/mnt/c/Users/IoT16/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/c/Program Files/Google/Chrome/Application:/mnt/c/Users/IoT16/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/IoT16/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/snap/bin'), ('WT_SESSION', '31e8296c-f8b6-4522-84fb-3642d39dd0ad'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/1019/build/pub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.810820] (pub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.811243] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/lib/pub/talker\n'}
+[12.812233] (pub) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/1019/install/pub/lib/pub/talker" to ""\n'}
+[12.812536] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/ament_index/resource_index/package_run_dependencies/pub\n'}
+[12.812614] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/ament_index/resource_index/parent_prefix_path/pub\n'}
+[12.813064] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/pub/environment/ament_prefix_path.sh\n'}
+[12.813142] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/pub/environment/ament_prefix_path.dsv\n'}
+[12.813378] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/pub/environment/path.sh\n'}
+[12.813464] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/pub/environment/path.dsv\n'}
+[12.813516] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/pub/local_setup.bash\n'}
+[12.813641] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/pub/local_setup.sh\n'}
+[12.813836] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/pub/local_setup.zsh\n'}
+[12.813941] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/pub/local_setup.dsv\n'}
+[12.813993] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/pub/package.dsv\n'}
+[12.814368] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/ament_index/resource_index/packages/pub\n'}
+[12.814444] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/pub/cmake/pubConfig.cmake\n'}
+[12.814496] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/pub/cmake/pubConfig-version.cmake\n'}
+[12.814561] (pub) StdoutLine: {'line': b'-- Installing: /home/ubuntu/1019/install/pub/share/pub/package.xml\n'}
+[12.816304] (pub) CommandEnded: {'returncode': 0}
+[12.844878] (-) TimerEvent: {}
+[12.914928] (pub) JobEnded: {'identifier': 'pub', 'rc': 0}
+[12.915443] (-) EventReactorShutdown: {}
